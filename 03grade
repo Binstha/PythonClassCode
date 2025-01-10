@@ -1,0 +1,16 @@
+
+#calculate the total marks and the percentage
+
+maths = 70
+science = 55
+english = 75
+nepali = 70
+social = 80
+
+total = (maths + science + english + nepali + social)
+
+total_max_marks = 500
+
+percentage = (total / total_max_marks) * 100
+
+print(f"Total Grade obtained = {total} \nPercentage = {percentage:.1f}%")
